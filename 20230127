@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^text\.example\.com$ [NC]
+RewriteRule ^(.*)$ https://example.jp/test/01 [R=301,L]
